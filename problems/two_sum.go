@@ -1,5 +1,7 @@
 package problems
 
+// TwoSumSolution
+//
 // Problem link: https://leetcode.com/problems/two-sum/
 func TwoSumSolution(nums []int, target int) []int {
 	var solution []int
