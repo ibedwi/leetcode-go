@@ -1,7 +1,6 @@
 package problems
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -10,10 +9,6 @@ func IsPalindrome(x int) bool {
 	isPalindrome := true
 	stringOfX := strconv.Itoa(x)
 
-	fmt.Print("asdfasdf"[0])
-	if string(x) == "1" {
-
-	}
 	runeOfX := []rune(stringOfX)
 	lengthOfX := len(stringOfX)
 
